@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: pink;
+    text-shadow: 3px 0px black;
+}
+
+h2{
+    
+    text-align: center;
+    color:black;
+ 
+}
