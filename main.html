@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .center{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .media{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #fb, #twit, #github, #pinterest{
+        font-size: 50px;
+        color: black;
+        text-decoration: none;
+    }
+    #fb:hover, #twit:hover, #github:hover, #pinterest:hover{
+        color: rgb(73, 63, 53);
+    }
+    .buttonalign{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button{
+        background-color: black;
+        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .button:hover{
+        background-color: rgb(73, 63, 53);
+        color: white;
+        cursor: pointer;
+    }
+</style>
+<body style="background-color: white;">
+    <div style="color: white;">
+        <section class="center"><img src="img/logo.png" alt=""></section>
+        <section class="media">
+            <div><a id="fb" href="https://www.facebook.com/Josieabuevaa"><i  class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+            <div><a id="twit" href="https://twitter.com/josieabuevaa"><i  class="fa fa-twitter" aria-hidden="true"></i></a></div>
+            <div><a id='github' href="https://github.com/mjmvabueva/edriven2020"><i  class="fa fa-github" aria-hidden="true"></i></a></div>
+            <div><a id='pinterest' href="https://www.pinterest.ph/majosiemae/_saved/"><i  class="fa fa-pinterest" aria-hidden="true"></i></a></div>
+        </section>
+        <div class="buttonalign"><a href="landingpage.html"><button class="button"> click here </button></a></div>
+    </div>
+</body>
+</html>
